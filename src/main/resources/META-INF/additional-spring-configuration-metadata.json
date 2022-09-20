@@ -1,0 +1,137 @@
+{"properties": [
+  {
+    "name": "from.email.address",
+    "type": "java.lang.String",
+    "description": "A description for 'from.email.address'"
+  },
+  {
+    "name": "spring.mail.smtps.auth",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtps.auth'"
+  },
+  {
+    "name": "spring.mail.smtp.ssl.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.ssl.enable'"
+  },
+  {
+    "name": "spring.mail.smtps.tls",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtps.tls'"
+  },
+  {
+    "name": "spring.mail.smtps.starttls.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtps.starttls.enable'"
+  },
+  {
+    "name": "spring.mail.smtps.ssl.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtps.ssl.enable'"
+  },
+  {
+    "name": "spring.mail.smtp.starttls.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.starttls.enable'"
+  },
+  {
+    "name": "spring.mail.smtp.tls",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.tls'"
+  },
+  {
+    "name": "spring.mail.smtp.auth",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.auth'"
+  },
+  {
+    "name": "cloud.aws.region.static",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.aws.region.static'"
+  },
+  {
+    "name": "cloud.aws.region.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.aws.region.auto'"
+  },
+  {
+    "name": "cloud.aws.stack.auto",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.aws.stack.auto'"
+  },
+  {
+    "name": "cloud.aws.credentials.access-key",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.aws.credentials.access-key'"
+  },
+  {
+    "name": "cloud.aws.credentials.secret-key",
+    "type": "java.lang.String",
+    "description": "A description for 'cloud.aws.credentials.secret-key'"
+  },
+  {
+    "name": "spring.mail.smtp.host",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.host'"
+  },
+  {
+    "name": "spring.mail.smtp.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.username'"
+  },
+  {
+    "name": "spring.mail.smtp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.password'"
+  },
+  {
+    "name": "spring.mail.smtp.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.password'"
+  },
+  {
+    "name": "spring.mail.smtp.port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.port'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.auth",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.auth'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.connectiontimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.connectiontimeout'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.starttls.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.starttls.enable'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.starttls.required",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.starttls.required'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.timeout'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.tls.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.tls.enable'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.tls.required",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.tls.required'"
+  },
+  {
+    "name": "spring.mail.smtp.properties.mail.smtp.writetimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.mail.smtp.properties.mail.smtp.writetimeout'"
+  }
+]}

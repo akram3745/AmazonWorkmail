@@ -1,0 +1,90 @@
+server:  
+   port: 8080
+   
+spring:  
+   mail:  
+     host: smtp.mail.us-east-1.awsapps.com
+     username: no-reply@layoverconnect.com
+     password: Layover1234
+     port: 465
+     properties:
+       mail:
+         protocol: smtp
+         smtp:
+           auth: true
+           connectiontimeout: 5000
+           ssl:
+             enable: true  
+             required: true
+             trust: smtp.mail.us-east-1.awsapps.com
+           timeout: 5000
+           writetimeout: 5000
+#cloud:
+#   aws:
+#     region:
+#       static: eu-central-1
+#       auto: false
+#     stack:
+#        auto: false
+#     credentials:
+#        access-key: AKIA2XCFFJGUDF6KICZV
+#        secret-key: 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
+#spring:
+##  security:
+##    user:
+##      password: root
+##  datasource:
+##    driver-class-name: com.mysql.cj.jdbc.Driver
+##    username: Alpha_dev_user
+##    password: Alpha_IndiQube$
+##    url: jdbc:mysql://database-1.cz3j5obnnqea.eu-central-1.rds.amazonaws.com:3306/db_layover_connect?createDatabaseIfNotExist=true
+#   jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#        max_allowed_packet: 2000
+#        hibernate:
+#        dialect: org.hibernate.dialect.MySQL8Dialect
+##  servlet:
+##     multipart:
+##        enabled: true
+##        max-file-size: 5MB
+##        max-request-size: 5000MB    
+#
+#
+##
+## 
+##  mail:  
+##    host: smtp.us-east-1
+##    username: AKIA2XCFFJGUJOKEDIGQ
+##    password: BKm6AUmOfoDBeCbdX/5X4GaiXGuZ6zkK9un2ZhzDapzu
+##    port: 587
+##    properties:
+##      mail:
+##        transport:
+##          protocol: smtp
+##        smtp:
+##          auth: true
+##          tls: 
+##            enable: true
+##          connectiontimeout: 5000000
+##          starttls:
+##            enable: true
+##            required: true
+##          timeout: 50000
+##          writetimeout: 50000
+from:
+   email:
+      address: no-reply@layoverconnect.com
+##springdoc:
+##  swagger-ui:
+##    csrf:
+##      enabled: true
+##logging:  
+##     file:
+##       url : /home/ec2-user/Client_Layoverconnect_Backend_JavaSpringBoot/layover-connect/src/main/resources/layover-connect-logs/layover.log    
+##auth.app:
+##    jwt-secret: qwerty
+##    jwt-expiration-ms: 1296000000  #24*60*60*1000 86400000
+##    jwt-refresh-ms: 1296000000   #15*24*60*60*1000
